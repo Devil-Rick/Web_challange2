@@ -1,0 +1,162 @@
+body{
+	margin: 0;
+}
+header{
+	background-image: url(../img/bg-header-desktop.png);
+	text-align: center;
+}
+.btn{
+	    background: #03c184;
+    background: linear-gradient(top, #3D94F6, #1E62D0);
+    /* background-image: linear-gradient(45deg, black, #33b19f00); */
+    border-radius: 20px;
+    height: 4px;
+    line-height: 4px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    width: 13%;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 1%;
+    box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+.copy{
+    margin-top: 66px;
+}
+.content h1{
+	font-size: 40px;
+    margin: 0 0 1%;
+}
+.content p{
+    width: 34%;
+    margin: 0 auto;
+    color: #4c4141a1;
+}
+.Download{
+	margin: 2%;
+}
+h2{
+    margin: 0 0 17px;
+    font-size: 40px;
+    color: #3d4040bf;
+}
+p{
+    font-size: 17px;
+    width: 400px;
+    margin: 0 auto 50px;
+    color: #4c4141a1;
+}
+#box_1st{
+	margin-top: 50px;
+	text-align: center;
+}
+.box-11{
+	text-align: center;
+}
+
+.cmp{
+   width: 33%;
+
+}
+.box-12{
+	display: inline-block;
+    font-size: 20px;
+    margin: 0 0 0 63px;
+}
+.box-12 p{
+	margin: 0 auto 20px;
+}
+h3{
+	margin-bottom: 9px;
+    font-size: 36px;
+    color: #424241e0;
+    margin-top: 40px;
+}
+#box_2nd{
+	text-align: center;
+    margin-top: 5%;
+}
+.device{
+	width: 45%;
+}
+.box-221{
+	display: inline-block;
+}
+#box_3rd{
+	margin-top: 2px;
+	text-align: center;
+}
+.box_31{
+	width: 10%;
+    margin: 5% 4%;
+}
+#box_4th{
+    text-align: center;
+}
+footer{
+	    background: #c1c7c6;
+	    text-align: center;
+}
+footer img{
+	width: 2%;
+}
+.Foot1{
+	margin-left: 2px;
+	display: inline-block;
+}
+.F1{
+	display: inline-block;
+    width: 116px;
+}
+footer p{
+	width: 100px;
+	    margin: 9% auto;
+}
+.icon{
+    margin: 9% auto;
+    width: 20%;
+}
+@media only screen and (max-width: 600px){
+	header{
+		background-image: url(../img/bg-header-mobile.png);
+	}
+	.copy{
+    	width: 15%;
+	}
+	p{
+		width: 100%;
+	}
+	.content p{
+		width: 100%;
+	}
+	.btn{
+	display: block;
+    margin: 2px auto;
+    width: 70%;
+    padding: 6%;
+	}
+	.box-12{
+		margin: 0;
+	}
+	.box_31{
+		display: block;
+		width: 34%;
+    	margin: 2% auto 5% auto;
+	}
+	footer img{
+		    width: 7%;
+    margin: 5px;
+	}
+	.Foot1{
+		display: block;
+	}
+	.F1{
+		display: block;
+    	margin: 0 auto;
+	}
+}
